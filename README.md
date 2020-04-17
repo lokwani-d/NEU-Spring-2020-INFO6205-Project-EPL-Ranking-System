@@ -1,10 +1,10 @@
 # EPL RANKING-SYSTEM
 6205FinalProject
 
-  @author deepak_lokwani
-  @author rupesh_alasundkar
+  @author deepak_lokwani 
+  [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasundkar/)
  
- #         NUID: 001316769 & 001304532
+ ###         NUID: 001316769 & 001304532
  
  Problem Statement:
           Project: Predictive Ranking System of English Premiere League
