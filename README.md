@@ -7,12 +7,19 @@ NUID: 001316769 :    [deepak_lokwani](https://www.linkedin.com/in/deepaklokwani1
 NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasundkar/)
  
  
+ # How start project:
+ ---
+ java
+ ---
+ 
 # Problem Statement:
 
 Project: Predictive Ranking System of English Premiere League
 this.File: RankingSystem.java Factors Considered: Location - Home or
 Away Attack Strength - goal scoring ability Defense Strength - goal
 conceding weakness
+
+
 
 # Driver Class:
 This is my main class. It initiates all the pre-requisite functions that are
