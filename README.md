@@ -36,7 +36,9 @@ All the pairs are grouped of tw, played or not played
 
 Factors Considered: 
 Location - Home or Away
+
 Attack Strength - goal scoring ability
+
 Defense Strength - goal conceding weakness
 
 
