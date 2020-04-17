@@ -33,7 +33,8 @@ this class makes the pairs of team to face a match and each match to be played
 or already played is given a combination ID and is stored in a HashMap
 All the pairs are grouped of tw, played or not played
  
- Factors Considered: 
+
+Factors Considered: 
 Location - Home or Away
 Attack Strength - goal scoring ability
 Defense Strength - goal conceding weakness
