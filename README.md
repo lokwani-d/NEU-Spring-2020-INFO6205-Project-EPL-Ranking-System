@@ -27,6 +27,17 @@ season.
 This class contains two such methods, the details of which are explained in
 detail in the project report or the readme file
 
+
+# MakePairs Class:
+this class makes the pairs of team to face a match and each match to be played 
+or already played is given a combination ID and is stored in a HashMap
+All the pairs are grouped of tw, played or not played
+ 
+ Factors Considered: 
+Location - Home or Away
+Attack Strength - goal scoring ability
+Defense Strength - goal conceding weakness
+
 ```
 
 ## Contributing
