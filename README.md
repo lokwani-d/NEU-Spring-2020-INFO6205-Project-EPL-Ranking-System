@@ -65,6 +65,28 @@ required data values that would be required further in the driver class for
 the calculation of the PDF of a match results
 
 
+# OBSERVATIONS AND TESTING
+## PART I: LEAGUE POINT TABLE
+
+Firstly, when the main class (Driver.java) is run, a console output is thrown asking
+user to choose the method to rank the teams and create a point table.
+A user can input either method A or B. Below are the screenshot of the following
+steps:
+
+## PART II: Face-off Probability Distribution Function
+
+Here the console asks the user to input two teams, home and away team.
+The output shows the following results in order:
+a. Goals prediction of home team
+b. Goals prediction of away team
+c. Probability distribution function over different combinations of the final
+score
+d. Final score with the maximum probability(discrete)
+e. Cumulative probability of a team winning, losing or match drawing based
+on the above discrete probability functions
+ 
+ Note: The percentage probability almost always adds up to 100% giving us a
+hint of the correctness of the calculations
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
