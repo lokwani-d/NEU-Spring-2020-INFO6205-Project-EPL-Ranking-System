@@ -30,7 +30,7 @@ conceding weakness
 
 
 
-# Driver Class:
+## Driver Class:
 This is my main class. It initiates all the pre-requisite functions that are
 required to tabulate the final point table. The driver constructor initially
 runs and makes assigns the combination id to each of the match that is played
@@ -44,7 +44,7 @@ This class contains two such methods, the details of which are explained in
 detail in the project report or the readme file
 
 
-# MakePairs Class:
+## MakePairs Class:
 this class makes the pairs of team to face a match and each match to be played 
 or already played is given a combination ID and is stored in a HashMap
 All the pairs are grouped of tw, played or not played
@@ -59,7 +59,7 @@ Attack Strength - goal scoring ability
 Defense Strength - goal conceding weakness
 
 
-# RankingSystem Class: 
+## RankingSystem Class: 
 this class is primarily my CSV file reader of sorts. It reads all the
 required data values that would be required further in the driver class for
 the calculation of the PDF of a match results
