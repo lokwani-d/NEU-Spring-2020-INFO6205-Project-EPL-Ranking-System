@@ -14,7 +14,7 @@ this.File: RankingSystem.java Factors Considered: Location - Home or
 Away Attack Strength - goal scoring ability Defense Strength - goal
 conceding weakness
 
-#Driver Class:
+# Driver Class:
 This is my main class. It initiates all the pre-requisite functions that are
 required to tabulate the final point table. The driver constructor initially
 runs and makes assigns the combination id to each of the match that is played
