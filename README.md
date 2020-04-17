@@ -15,11 +15,14 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
    git clone    https://github.com/alasundkar/6205FinalProject.git
    
  ```
-start program using java command
- 
+
+## start program using java command
+
+
  ```bash
  java  Driver.java
 ``` 
+
 # Problem Statement:
 
 Project: Predictive Ranking System of English Premiere League
