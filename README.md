@@ -30,7 +30,7 @@ Firstly, when the main class (Driver.java) is run, a console output is thrown as
 user to choose the method to rank the teams and create a point table.
 A user can input either method A or B.
 
-METHOD A: 
+METHOD A: It computes the point table based on the cumulative probability distribution function of a team winning 
 
 INPUT REQUIRED: A or B
 
