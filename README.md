@@ -9,10 +9,10 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
  
 # Problem Statement:
 
-          Project: Predictive Ranking System of English Premiere League
-          this.File: RankingSystem.java Factors Considered: Location - Home or
-          Away Attack Strength - goal scoring ability Defense Strength - goal
-          conceding weakness
+Project: Predictive Ranking System of English Premiere League
+this.File: RankingSystem.java Factors Considered: Location - Home or
+Away Attack Strength - goal scoring ability Defense Strength - goal
+conceding weakness
 
 
 # Foobar
