@@ -38,6 +38,11 @@ Location - Home or Away
 Attack Strength - goal scoring ability
 Defense Strength - goal conceding weakness
 
+
+# RankingSystem Class: 
+this class is primarily my CSV file reader of sorts. It reads all the
+required data values that would be required further in the driver class for
+the calculation of the PDF of a match results
 ```
 
 ## Contributing
