@@ -8,6 +8,15 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
  
  
  # How start project:
+ 
+ Clone this repository to your local system:
+ 
+ ```` bash
+   git clone    https://github.com/alasundkar/6205FinalProject.git
+   
+ ```
+start program using java command
+ 
  ```bash
  java  Driver.java
 ``` 
