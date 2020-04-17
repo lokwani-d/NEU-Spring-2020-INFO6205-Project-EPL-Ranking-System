@@ -8,10 +8,9 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
  
  
  # How start project:
- ---
- java
- ---
- 
+ ```bash
+ java  Driver.java
+``` 
 # Problem Statement:
 
 Project: Predictive Ranking System of English Premiere League
