@@ -28,8 +28,13 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
 
 Firstly, when the main class (Driver.java) is run, a console output is thrown asking
 user to choose the method to rank the teams and create a point table.
-A user can input either method A or B. 
+A user can input either method A or B.
+
+METHOD A: 
+
 INPUT REQUIRED: A or B
+
+OUTPUT EXPECTED: A FINAL POINT TABLE FOR THE LEAGUE
 
 ## PART II: Face-off Probability Distribution Function
 
