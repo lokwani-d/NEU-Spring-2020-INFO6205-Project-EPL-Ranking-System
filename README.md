@@ -24,10 +24,12 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
 # TESTING AND RUNNING THE PROGRAM
 ## PART I: LEAGUE POINT TABLE
 
+#Step 1:
+
 Firstly, when the main class (Driver.java) is run, a console output is thrown asking
 user to choose the method to rank the teams and create a point table.
-A user can input either method A or B. Below are the screenshot of the following
-steps:
+A user can input either method A or B. 
+INPUT REQUIRED: A or B
 
 ## PART II: Face-off Probability Distribution Function
 
