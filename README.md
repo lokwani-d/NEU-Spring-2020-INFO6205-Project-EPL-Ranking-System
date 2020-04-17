@@ -21,7 +21,7 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
  java  Driver.java
 ``` 
 
-# OBSERVATIONS AND TESTING
+# TESTING AND RUNNING THE PROGRAM
 ## PART I: LEAGUE POINT TABLE
 
 Firstly, when the main class (Driver.java) is run, a console output is thrown asking
