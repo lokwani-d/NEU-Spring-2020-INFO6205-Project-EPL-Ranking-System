@@ -1,6 +1,18 @@
 # EPL RANKING-SYSTEM
 6205FinalProject
 
+  @author deepak_lokwani
+  @author rupesh_alasundkar
+ 
+ #         NUID: 001316769 & 001304532
+ 
+ Problem Statement:
+          Project: Predictive Ranking System of English Premiere League
+          this.File: RankingSystem.java Factors Considered: Location - Home or
+          Away Attack Strength - goal scoring ability Defense Strength - goal
+          conceding weakness
+
+
 # Foobar
 
 Foobar is a Python library for dealing with word pluralization.
