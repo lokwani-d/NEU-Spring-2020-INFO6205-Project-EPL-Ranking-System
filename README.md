@@ -1,8 +1,10 @@
 # EPL RANKING-SYSTEM
 6205FinalProject
 
-  @author [deepak_lokwani](https://www.linkedin.com/in/deepaklokwani1/) 
-  [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasundkar/)
+@author 
+NUID: 001316769 :    [deepak_lokwani](https://www.linkedin.com/in/deepaklokwani1/)    
+and
+NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasundkar/)
  
  ###         NUID: 001316769 & 001304532
  
