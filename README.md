@@ -11,13 +11,11 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
  
  Clone this repository to your local system:
  
- ```` bash
+
+```bash
    git clone    https://github.com/alasundkar/6205FinalProject.git
-   
- ```
-
+```
 ## start program using java command
-
 
  ```bash
  java  Driver.java
