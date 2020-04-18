@@ -72,7 +72,8 @@ hint of the correctness of the calculations
 # Problem Statement:
 
 Project: Predictive Ranking System of English Premiere League
-this.File: RankingSystem.java Factors Considered: Location - Home or
+this.File: RankingSystem.java 
+Factors Considered: Location - Home or
 Away Attack Strength - goal scoring ability Defense Strength - goal
 conceding weakness
 
