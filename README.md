@@ -21,7 +21,7 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
 Build your own project before running as this project doesn't contain a .classpath file
 
 
-## start program using java command
+## Start program using java command
 
  ```bash
  java  Driver.java
