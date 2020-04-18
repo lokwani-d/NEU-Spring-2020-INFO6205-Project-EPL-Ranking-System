@@ -32,6 +32,10 @@ A user can input either method A or B.
 
 METHOD A: It computes the point table based on the cumulative probability distribution function of a team winning 
 
+METHOD B: It computes the point table based on the discrete probability of each each goal score combination and then takes the decision
+
+Authors prefer Method B for finer accuracy but it is left to user to make a choice 
+
 INPUT REQUIRED: A or B
 
 OUTPUT EXPECTED: A FINAL POINT TABLE FOR THE LEAGUE
@@ -39,6 +43,13 @@ OUTPUT EXPECTED: A FINAL POINT TABLE FOR THE LEAGUE
 ## PART II: Face-off Probability Distribution Function
 
 Here the console asks the user to input two teams, home and away team.
+
+INPUT REQUIRED: Home Team
+
+INPUT REQUIRED: Away TEAM
+
+User is advised to type the names correctly as the input data are names and are case-sensitive
+
 The output shows the following results in order:
 a. Goals prediction of home team
 b. Goals prediction of away team
@@ -102,4 +113,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://github.com/alasundkar/6205FinalProject/blob/master/LICENSE)
+[MIT](https://choosealicense.com/licenses/mit/)
