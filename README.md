@@ -50,7 +50,7 @@ INPUT REQUIRED: Away Team
 
 User is advised to type the names correctly as the input data are names and are case-sensitive
 
-OUTPUT EXPECTED: 
+OUTPUT EXPECTED: Output predicts the face-off result of the match if played between the two teams chosen by the user. 
 
 The output shows the following results in order:
 a. Goals prediction of home team
@@ -115,4 +115,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://github.com/alasundkar/6205FinalProject/blob/master/LICENSE)
+[MIT](https://choosealicense.com/licenses/mit/)
