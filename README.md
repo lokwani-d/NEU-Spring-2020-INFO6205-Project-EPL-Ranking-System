@@ -46,9 +46,11 @@ Here the console asks the user to input two teams, home and away team.
 
 INPUT REQUIRED: Home Team
 
-INPUT REQUIRED: Away TEAM
+INPUT REQUIRED: Away Team
 
 User is advised to type the names correctly as the input data are names and are case-sensitive
+
+OUTPUT EXPECTED: 
 
 The output shows the following results in order:
 a. Goals prediction of home team
