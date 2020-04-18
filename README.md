@@ -69,13 +69,17 @@ on the above discrete probability functions
 Note: The percentage probability almost always adds up to 100% giving us a
 hint of the correctness of the calculations
 
-# Problem Statement:
+# Design Factors:
 
 Project: Predictive Ranking System of English Premiere League
-this.File: RankingSystem.java 
-Factors Considered: Location - Home or
-Away Attack Strength - goal scoring ability Defense Strength - goal
-conceding weakness
+
+Factors Considered: 
+
+Location - Home or Away 
+
+Attack Strength - goal scoring ability 
+
+Defense Strength - goal conceding weakness
 
 
 
