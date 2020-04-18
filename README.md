@@ -1,12 +1,12 @@
 # EPL RANKING-SYSTEM
 6205FinalProject
 
-@author
+@authors
 
 NUID: 001316769 :    [deepak_lokwani](https://www.linkedin.com/in/deepaklokwani1/)    
 NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasundkar/)
  
- 
+  
  # How start project:
  
  Clone this repository to your local system:
@@ -15,6 +15,12 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
 ```bash
    git clone    https://github.com/alasundkar/6205FinalProject.git
 ```
+
+## BEFORE RUNNING
+
+Build your own project before running as this project doesn't contain a .classpath file
+
+
 ## start program using java command
 
  ```bash
