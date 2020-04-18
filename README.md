@@ -53,15 +53,20 @@ User is advised to type the names correctly as the input data are names and are 
 OUTPUT EXPECTED: Output predicts the face-off result of the match if played between the two teams chosen by the user. 
 
 The output shows the following results in order:
+
 a. Goals prediction of home team
+
 b. Goals prediction of away team
+
 c. Probability distribution function over different combinations of the final
 score
+
 d. Final score with the maximum probability(discrete)
+
 e. Cumulative probability of a team winning, losing or match drawing based
 on the above discrete probability functions
  
- Note: The percentage probability almost always adds up to 100% giving us a
+Note: The percentage probability almost always adds up to 100% giving us a
 hint of the correctness of the calculations
 
 # Problem Statement:
