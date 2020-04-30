@@ -9,7 +9,7 @@ NUID: 001304532:    [rupesh_alasundkar](https://www.linkedin.com/in/rupeshalasun
   
  # How start project:
  
- Clone this repository to your local system:
+ Clone this repository to your local system: 
  
 
 ```bash
