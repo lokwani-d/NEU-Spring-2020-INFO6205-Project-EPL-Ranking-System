@@ -1,9 +1,11 @@
 package src.main;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
 /**
+ * 
  * 
  * @author deepak_lokwani
  * @author rupesh_alasundkar
@@ -18,16 +20,18 @@ import java.io.IOException;
  */
 
 public class RankingSystem {
+	
 
 	/**
 	 * this class is primarily my CSV file reader of sorts. It reads all the
 	 * required data values that would be required further in the driver class for
 	 * the calculation of the PDF of a match results
 	 */
-	
-	//Absolute Path
-	//static String csvFilePath = "C:\\Users\\deepa\\eclipse-workspace\\testing\\RankingSystemProject\\src\\src\\main\\datasets\\2019-2020.csv";
-	//Relative Path
+
+	// Absolute Path
+	// static String csvFilePath =
+	// "C:\\Users\\deepa\\eclipse-workspace\\testing\\RankingSystemProject\\src\\src\\main\\datasets\\2019-2020.csv";
+	// Relative Path
 	static String csvFilePath = ".//src//src//main//datasets//2019-2020.csv";
 	static String line = "";
 	static String cvsSplitBy = ",";
@@ -68,10 +72,10 @@ public class RankingSystem {
 		 * This float array contains all my resultant varivables
 		 */
 		float goalsScoredEachTeamDataSet[] = new float[11];
-		
+
 		try (BufferedReader br = new BufferedReader(new FileReader(csvFilePath))) {
 			while ((line = br.readLine()) != null) {
-				
+
 				String[] data = line.split(cvsSplitBy);
 				String homeTeam = data[3];
 				String awayTeam = data[4];
@@ -112,8 +116,8 @@ public class RankingSystem {
 			}
 		} catch (IOException e) {
 			/*
-			 * Try catch blocks throws the new exception when the input data are not
-			 * found in the record
+			 * Try catch blocks throws the new exception when the input data are not found
+			 * in the record
 			 */
 			e.printStackTrace();
 		}
@@ -134,9 +138,9 @@ public class RankingSystem {
 			}
 			break;
 
-			/*
-			 * checks for the away locations
-			 */
+		/*
+		 * checks for the away locations
+		 */
 		case "away":
 			if (matchesPlayedEachTeamAway == 0) {
 				return goalsScoredEachTeamDataSet;
@@ -146,9 +150,9 @@ public class RankingSystem {
 			}
 			break;
 
-			/*
-			 * checks for the all locations
-			 */
+		/*
+		 * checks for the all locations
+		 */
 		case "all":
 			matchesPlayedEachTeamAll = matchesPlayedEachTeamAtHome + matchesPlayedEachTeamAway;
 			goalsScoredEachTeamAll = goalsScoredEachTeamAtHome + goalsScoredEachTeamAway;
@@ -181,7 +185,8 @@ public class RankingSystem {
 	}
 
 	/**
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Home Team parameters of Each team DOWN~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Home Team parameters of Each team
+	 * DOWN~~~~~~~~~~~~~~~~~~
 	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * 
 	 * 
@@ -202,14 +207,17 @@ public class RankingSystem {
 	}
 
 	/*
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Home Team parameters of Each team UP~~~~~~~~~~~~~~~~~~~~~
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Home Team parameters of Each team
+	 * UP~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~
 	 * 
 	 * 
 	 */
 
 	/**
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Away Team parameters of Each team DOWN~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Away Team parameters of Each team
+	 * DOWN~~~~~~~~~~~~~~~~~~
 	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * 
 	 *
@@ -236,14 +244,17 @@ public class RankingSystem {
 	}
 
 	/*
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Away Team parameters of Each team UP~~~~~~~~~~~~~~~~~~
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Away Team parameters of Each team
+	 * UP~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~
 	 * 
 	 * 
 	 */
 
 	/**
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Team parameters of Each team All DOWN~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Team parameters of Each team All
+	 * DOWN~~~~~~~~~~~~~~~~~~~
 	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * 
 	 * 
@@ -265,14 +276,17 @@ public class RankingSystem {
 	}
 
 	/*
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Team parameters of Each team All UP~~~~~~~~~~~~~~~~~~
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Team parameters of Each team All
+	 * UP~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~
 	 * 
 	 * 
 	 */
 
 	/**
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Home Team parameters DOWN~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Home Team parameters
+	 * DOWN~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * 
 	 * @return
@@ -303,13 +317,16 @@ public class RankingSystem {
 		return averageGoalsScoredByAllTeamsAtHome;
 	}
 	/*
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Home Team parameters UP~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Home Team parameters
+	 * UP~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~
 	 * 
 	 */
 
 	/**
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Away Team parameters DOWN ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Away Team parameters DOWN
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * 
 	 * 
@@ -340,13 +357,16 @@ public class RankingSystem {
 		return averageGoalsScoredByAllTeamsAway;
 	}
 	/*
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Away Team parameters UP~~~~~~~~~~~~~~~~~~~~~~~~~~
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total Away Team parameters
+	 * UP~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~
 	 * 
 	 */
 
 	/**
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total All Team parameters DOWN~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total All Team parameters
+	 * DOWN~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	 * 
 	 * 
@@ -377,8 +397,10 @@ public class RankingSystem {
 		return averageGoalsScoredInLeague;
 	}
 	/*
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total All Team parameters UP~~~~~~~~~~~~~~~~~~~~~~~~~~
-	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~ Total All Team parameters
+	 * UP~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 * ~~~~~~
 	 * 
 	 */
 

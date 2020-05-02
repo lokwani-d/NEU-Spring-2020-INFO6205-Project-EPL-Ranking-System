@@ -12,33 +12,31 @@ import java.util.Map;
  * @author deepak_lokwani
  * @author rupesh_alasundkar
  * 
- * NUID: 001316769  & 001304532
+ *         NUID: 001316769 & 001304532
  * 
- * Project: Predictive Ranking System of English Premiere League
- * this.File: MakePairs.java
+ *         Project: Predictive Ranking System of English Premiere League
+ *         this.File: MakePairs.java
  * 
- * Factors Considered: 
- * Location - Home or Away
- * Attack Strength - goal scoring ability
- * Defense Strength - goal conceding weakness
+ *         Factors Considered: Location - Home or Away Attack Strength - goal
+ *         scoring ability Defense Strength - goal conceding weakness
  *
  */
 
 public class MakePairs {
-/**
- * this class makes the pairs of team to face a match and each match to be played 
- * or already played is given a combination ID and is stored in a HashMap
- * All the pairs are grouped of tw, played or not played
- */
+	/**
+	 * this class makes the pairs of team to face a match and each match to be
+	 * played or already played is given a combination ID and is stored in a HashMap
+	 * All the pairs are grouped of tw, played or not played
+	 */
 	static Map<String, Integer> combination_id = new HashMap<String, Integer>();
 	static Map<String, Integer> played = new HashMap<String, Integer>();
 	static Map<String, Integer> notPlayed = new HashMap<String, Integer>();
 	static Map<String, Integer> PointTable = new HashMap<String, Integer>();
 
 	int i = 1;
-	
+
 	public void MakePairsOnce(String homeTeam, String awayTeam) {
-		
+
 		combination_id.put(homeTeam + "-" + awayTeam, i);
 		i++;
 		combination_id.put(awayTeam + "-" + homeTeam, i);
@@ -47,15 +45,15 @@ public class MakePairs {
 
 	public void matchesPlayed() {
 		/*
-		 * This method groups the combinations id whether the match is
-		 *  played or not by finding its presence in the CSV data file
+		 * This method groups the combinations id whether the match is played or not by
+		 * finding its presence in the CSV data file
 		 */
 
 		/*
-		 * Point table is initialized as soon as the matches played are 
-		 * detected so as the point table can be updated  along with it
+		 * Point table is initialized as soon as the matches played are detected so as
+		 * the point table can be updated along with it
 		 */
-		
+
 		for (String eachTeam : RankingSystem.allTeams) {
 			PointTable.put(eachTeam, 0);
 		}
@@ -70,7 +68,7 @@ public class MakePairs {
 				Integer i = combination_id.get(homeTeam + "-" + awayTeam);
 				played.put(homeTeam + "-" + awayTeam, i);
 				String winner = data[7];
-				
+
 				/*
 				 * It adds 3 points to the winner, and 1 point to each team for a draw
 				 */
@@ -94,10 +92,10 @@ public class MakePairs {
 	}
 
 	public void matchesNotPlayed() {
-		
+
 		/*
-		 * This method groups the combinations id whether the match is
-		 *  played or not by finding its presence in the CSV data file
+		 * This method groups the combinations id whether the match is played or not by
+		 * finding its presence in the CSV data file
 		 */
 
 		for (String combination : combination_id.keySet()) {
