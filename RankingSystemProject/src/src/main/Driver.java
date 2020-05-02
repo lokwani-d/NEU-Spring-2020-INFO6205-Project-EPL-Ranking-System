@@ -119,7 +119,6 @@ public class Driver {
 		Driver driver = new Driver();
 		try {
 			if (userInputMethod.equalsIgnoreCase("a") || userInputMethod.equalsIgnoreCase("b")) {
-				
 
 				/*
 				 * This loop iterates over each match that was supposed to be played but could
@@ -161,8 +160,6 @@ public class Driver {
 		System.out.println("\n" + sortedByValue);
 
 	}
-
-
 
 	/**
 	 * this function sorts my HashMap i.e. my final points table
@@ -253,7 +250,7 @@ public class Driver {
 
 				finalScoreProbabilityMatrix[homeTeamGoalCase][awayTeamGoalCase] = scoreProability;
 				/*
-				 * It prints my 6X6 matrix 
+				 * It prints my 6X6 matrix
 				 */
 				if (method.equalsIgnoreCase("c")) {
 					System.out.print(homeTeamGoalCase + " : " + awayTeamGoalCase + " = "
@@ -269,7 +266,8 @@ public class Driver {
 				}
 
 				/*
-				 * checks the three condition of a team winning based on the final goal difference of a match 
+				 * checks the three condition of a team winning based on the final goal
+				 * difference of a match
 				 */
 				if (homeTeamGoalCase - awayTeamGoalCase < 0) {
 					AwayTeamWinningProbabilty += homeTeamPDF.probability(homeTeamGoalCase)
@@ -289,7 +287,7 @@ public class Driver {
 				System.out.println("");
 			}
 		}
-		
+
 		/*
 		 * It prints my final values of the match
 		 */
@@ -304,7 +302,7 @@ public class Driver {
 			System.out.println("Chances of " + awayTeam + " winning are "
 					+ Math.round(AwayTeamWinningProbabilty * 100.0) / 100.0 + " %");
 		}
-		
+
 		/*
 		 * It is deplyed when the method A is passed
 		 */
